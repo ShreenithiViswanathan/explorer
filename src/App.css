@@ -1,0 +1,53 @@
+/* src/App.css */
+.app {
+  text-align: center;
+}
+
+.app-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
